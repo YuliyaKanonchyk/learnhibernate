@@ -1,0 +1,80 @@
+GET http://localhost:8080/user/save
+
+###
+
+GET http://localhost:8080/user/update
+
+###
+
+GET http://localhost:8080/user/get/1
+
+###
+
+POST http://localhost:8080/user/delete/1
+
+###
+
+GET http://localhost:8080/abonent/save
+
+###
+
+GET http://localhost:8080/user/test
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Vasya"
+}
+
+###
+
+GET http://localhost:8080/user/test2
+
+###
+
+GET http://localhost:8080/abonent/delete/1
+
+###
+
+GET http://localhost:8080/abonent/find/1
+
+###
+
+GET http://localhost:8080/telebook/save
+
+###
+
+GET http://localhost:8080/telebook/delete/1
+
+###
+
+GET http://localhost:8080/telebook/find/1
+
+###
+
+GET http://localhost:8080/abonent/findByName/Petia
+
+###
+GET http://localhost:8080/abonent/findByTitle/Minsk
+
+###
+GET http://localhost:8080/telebook/save
+
+###
+
+GET http://localhost:8080/abonent/save
+
+###
+
+POST http://localhost:8080/abonent/updateAbonentById
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Fedia",
+  "surName": "Fedin",
+  "telNum": "123"
+
+}
+
+###
